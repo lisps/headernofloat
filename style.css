@@ -1,0 +1,15 @@
+ /**
+ * DokuWiki Plugin headernofloat (CSS Component) 
+ *
+ * @license GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author  lisps    
+ */
+
+/* general headline setup */
+div.dokuwiki div.nofloat  h1,
+div.dokuwiki div.nofloat  h2,
+div.dokuwiki div.nofloat  h3,
+div.dokuwiki div.nofloat  h4,
+div.dokuwiki div.nofloat  h5{
+	clear: none;
+}

@@ -1,0 +1,7 @@
+base    headernofloat
+author  lisps
+email   
+date    2013-10-29
+name    HeaderNoFloat
+desc    Display header right beside an image
+url     http://dokuwiki.org/plugin:headernofloat
