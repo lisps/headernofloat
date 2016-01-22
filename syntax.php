@@ -34,7 +34,7 @@ class syntax_plugin_headernofloat extends DokuWiki_Syntax_Plugin {
         // header (numbered headers) 45
         function getSort() { return 59; }
  
-        function handle( $match, $state, $pos, &$handler )
+        function handle( $match, $state, $pos, Doku_Handler $handler )
         {
 			// get level and title
 			$title = trim($match);
@@ -56,7 +56,7 @@ class syntax_plugin_headernofloat extends DokuWiki_Syntax_Plugin {
 			return $opts;
         }
  
-        function render( $mode, &$renderer, $data )
+        function render( $mode, Doku_Renderer $renderer, $data )
         {			
 			$title = $text = $data["text"];
 			$level= $data["level"];
